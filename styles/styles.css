@@ -122,14 +122,14 @@ header .overlay {
   justify-content: center;
   color: white;
   text-shadow: 1px .1px;
-  background-image: url(/visuals/tileBg.jpeg);
+  background-image: url(https://www.dropbox.com/s/m77uf5rta3nd3hq/main.jpeg?dl=0);
   background-size: cover;
   margin: 5px;
 
 }
 
 .cell:hover{
-  background-image:url(/visuals/hoverImage.jpeg);
+  background-image:url(https://www.dropbox.com/s/6tj45wo891e021a/hover.jpeg?dl=0);
   box-shadow: 5px 5px lightblue;
   border: 4px #e1b515;
   
