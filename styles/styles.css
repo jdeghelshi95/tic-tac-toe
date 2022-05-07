@@ -1,0 +1,168 @@
+
+
+body{
+  text-align: center;
+align-content: center;
+display: flex;
+flex-direction: column; 
+align-items: center;
+/* background-image: url("/assets/Cartoon\ Dream\ 18\ -\ 16x9.jpeg"); */
+background-repeat:no-repeat
+
+}
+.gameScores{
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  gap:2rem;
+
+  
+}
+.xScore{
+background-color: blue;
+width: 5rem;
+padding: 1rem;
+}
+.drawScore{
+  background-color: orange;
+  padding: 1.60rem;
+
+  
+  
+}
+.oScore{
+  background-color: red;
+  width: 5rem;
+  padding:1rem
+
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 20vh;
+  min-height: 10rem;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: "phosphate";
+  font-size: 25px;
+  text-shadow: 2px 2px 2px cornflowerblue;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100px;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+
+.banner{
+ 
+  color:lightblue;
+  width: 600px;
+  align-items: center;
+  font-family: "phosphate";
+  font-size: 60px;
+}
+
+.gameWindow{
+  width: 40vw;
+  height: 40vw;
+  display:grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-size:auto;
+
+
+}
+
+.cell{
+  font-family: "phosphate";
+  width: 10vw;
+  height: 10vw;
+  box-shadow: 2 2 0 0 2px #e1b515;
+  border: 2px solid #efefef;
+  line-height: 80px;
+  cursor:grab;
+  font-size: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px .1px;
+  background-image: url(/visuals/tileBg.jpeg);
+  background-size: cover;
+  margin: 5px;
+
+}
+
+.cell:hover{
+  background-image:url(/visuals/hoverImage.jpeg);
+  box-shadow: 5px 5px lightblue;
+  border: 4px #e1b515;
+  
+}
+
+
+button{
+  background-color:lightskyblue;
+  border: none;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow:5px 5px lightcoral;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+button:hover{
+background-color: lightcoral;
+box-shadow: 5px 5px lightskyblue;
+color: lightskyblue;
+}
+
+.gamestatus{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  background: linear-gradient(30deg, lightblue, orange, lightblue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+
+}

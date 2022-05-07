@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+</head>
+    <header>
+
+      <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/visuals/banner.mp4" type="video/mp4">
+    </video>
+  
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">TIC TAC TOE </h1>
+          <p class="lead mb-0">Click a Tile to begin</p>
+        </div>
+      </div>
+    </div>
+    </header>
+<body>
+    <section>
+        <h2 class="gamestatus"></h2>
+        <div class = "gameScores">
+        <div class ="xScore"><span>Player X Score</span> <span id='xwins'> 0</span></div>
+        <div class = "drawScore"> <span>Draws</span> <span id='draws'> 0</span></div>
+        <div class = "oScore"><span>Player O Score</span> <span id='owins'> 0</span></div>
+          </div>
+
+        <div class="gameWindow">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+
+        <div>
+        <button class="playHuman">Play Human</button>
+        <button class="playAi">Play Computer</button>
+        </div>
+    </section>
+
+    <script defer src="scripts/script.js"></script>
+</body>
+</html>
