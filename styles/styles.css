@@ -122,14 +122,14 @@ header .overlay {
   justify-content: center;
   color: white;
   text-shadow: 1px .1px;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/002/058/569/original/abstract-grunge-texture-painted-background-free-vector.jpg);
+  background-image: url(https://tinyurl.com/maintile);
   background-size: cover;
   margin: 5px;
 
 }
 
 .cell:hover{
-  background-image:url(https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5NzM4ODkzfHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+  background-image:url(https://tinyurl.com/hovertile);
   box-shadow: 5px 5px lightblue;
   border: 4px #e1b515;
   
